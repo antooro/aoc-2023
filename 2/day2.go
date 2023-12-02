@@ -4,9 +4,7 @@ import (
 	"bufio"
 	"fmt"
 	"os"
-	_ "reflect"
 	"strconv"
-	_ "strconv"
 	"strings"
 )
 
@@ -103,6 +101,6 @@ func part_two() {
 }
 
 func main(){
-	// part_one()
+	part_one()
 	part_two()
 }

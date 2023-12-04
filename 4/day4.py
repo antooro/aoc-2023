@@ -22,7 +22,7 @@ def part_two():
             wining_n = list(set(numbers_win.split()) & set(mynums.split()))
             cards[card_n] += 1 
             for c in (list(range(card_n + 1, len(wining_n) + int(card_n) + 1))):
-                cards[c] += 1 * cards[card_n]
+                cards[c] += cards[card_n]
                 
                 
     print(sum(cards.values()))
